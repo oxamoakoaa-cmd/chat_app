@@ -37,7 +37,7 @@ if prompt := st.chat_input("Message the assistant..."):
         st.markdown(prompt)
 
     with st.chat_message("assistant"):
-        token = "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"
+        token = "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"
         if not token:
             st.error("Set the HF_TOKEN environment variable to connect to Hugging Face.")
         else:
